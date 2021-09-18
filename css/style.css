@@ -29,7 +29,7 @@ body {
 .callout-container {
     height: 100vh;
 
-    background: url("../images/company.logo.jpg");
+    background: url("/images/company.logo.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -41,6 +41,7 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
+    opacity: .8.5;
 }
 
 .opaque-overlay {
@@ -52,8 +53,10 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+
 .quotes .page-header {
-    margin-bottom: 25px;
+    margin-bottom: 40px;
+    margin-top: 20px;
 }
 /* Navbar */
 
